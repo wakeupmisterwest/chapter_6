@@ -33,7 +33,7 @@ for pet in pets:
     print(f"\nName: {name.title()}")
     print(f"Animal: {animal.title()}")
     if owner != 'stray':
-        print(f"Owner: {name.title()}.")
+        print(f"Owner: {owner.title()}")
     else:
         print(f"Owner: {name.title()} is a stray and has no owner.")
 
